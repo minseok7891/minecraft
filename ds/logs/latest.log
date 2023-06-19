@@ -1,0 +1,206 @@
+[13:27:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:27:20] [ServerMain/INFO]: Loaded 7 recipes
+[13:27:21] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:27:21] [Server thread/INFO]: Loading properties
+[13:27:21] [Server thread/INFO]: This server is running Purpur version git-Purpur-1996 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: fa3166a on HEAD)
+[13:27:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:27:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:27:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:27:23] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[13:27:23] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[13:27:23] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[13:27:23] [Server thread/WARN]: [Pufferfish] Debug: Java: 18.0.2-ea, test run: true
+[13:27:24] [Server thread/INFO]: Default game type: SURVIVAL
+[13:27:24] [Server thread/INFO]: Generating keypair
+[13:27:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:27:24] [Server thread/INFO]: Using epoll channel type
+[13:27:24] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:27:24] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[13:27:25] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.42
+[13:27:25] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.90
+[13:27:25] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.26.3-SNAPSHOT
+[13:27:25] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[13:27:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:27:25] [Server thread/INFO]: Preparing level "world"
+[13:27:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:27:27] [Server thread/INFO]: Time elapsed: 439 ms
+[13:27:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:27:27] [Server thread/INFO]: Time elapsed: 118 ms
+[13:27:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:27:27] [Server thread/INFO]: Time elapsed: 104 ms
+[13:27:27] [Server thread/INFO]: [spark] Enabling spark v1.10.42
+[13:27:30] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[13:27:30] [Server thread/INFO]: [spark] Starting background profiler...
+[13:27:31] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.90
+[13:27:31] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.3-SNAPSHOT
+[13:27:31] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[13:27:31] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[13:27:31] [Server thread/INFO]: [ClearLag] Loading modules...
+[13:27:31] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[13:27:31] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[13:27:32] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[13:27:32] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[13:27:32] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[13:27:32] [Thread-11/INFO]: [ClearLag] No updates found!
+[13:27:32] [Server thread/INFO]: Running delayed init tasks
+[13:27:32] [Server thread/INFO]: Done (10.891s)! For help, type "help"
+[13:27:35] [pool-17-thread-1/INFO]: [DiscordSRV] This build of DiscordSRV is identical to develop. [latest public dev build]
+[13:27:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[13:27:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[13:27:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[13:27:37] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:minseokkk777.kro.kr 마크서버(1094917816047652874)
+[13:27:37] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:일반(1094917818266439782)
+[13:27:37] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:로그(1094919469010272296)
+[13:27:37] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:로그(1094919469010272296)
+[13:27:38] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[13:28:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > 복구
+[13:29:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > @everyone
+[13:29:43] [User Authenticator #0/INFO]: UUID of player minseokkk777 is 931e0a25-471f-4833-98ac-259dfc9b8a15
+[13:29:53] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[13:29:53] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[13:29:53] [Watchdog Thread/ERROR]: ------------------------------
+[13:29:53] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[13:29:53] [Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@6339b61
+[13:29:53] [Watchdog Thread/ERROR]: ------------------------------
+[13:29:53] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[13:29:53] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[13:29:53] [Watchdog Thread/ERROR]: 	Stack:
+[13:29:53] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
+[13:29:53] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[13:29:53] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[13:29:53] [Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2399)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:608)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1602)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1421)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[13:29:53] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4659/0x00000008015f27c0.run(Unknown Source)
+[13:29:53] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[13:29:53] [Watchdog Thread/ERROR]: ------------------------------
+[13:29:53] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[13:29:53] [Watchdog Thread/ERROR]: ------------------------------
+[13:29:56] [Server thread/INFO]: minseokkk777 joined the game
+[13:29:56] [Server thread/INFO]: minseokkk777[/218.148.64.205:49742] logged in with entity id 393 at ([world]-593.5945821278236, 64.0, -2.627892576078506)
+[13:29:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13141ms or 262 ticks behind
+[13:33:43] [Server thread/INFO]: minseokkk777 issued server command: /tp @e[type=minecraft:parrot]
+[13:33:45] [Server thread/INFO]: minseokkk777 issued server command: /tp @e[type=minecraft:parrot] minseokkk777
+[13:34:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 오호라
+[13:35:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > 후드 오늘 우리가 찾아온 동물들 롤백됨 ㅋㅋㅋㅋ
+[13:38:14] [User Authenticator #1/INFO]: UUID of player Nightmare_20 is 22b6a089-59d3-45ff-8493-0178769040bc
+[13:38:14] [Server thread/INFO]: Nightmare_20 joined the game
+[13:38:14] [Server thread/INFO]: Nightmare_20[/27.126.4.127:10611] logged in with entity id 2088 at ([world]88.01126385364668, 64.0, -871.7812942207021)
+[13:38:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > @hwaryeohasuhomulgodeungeocingu 어이
+[13:38:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 들어와서 일해라!
+[13:40:12] [User Authenticator #2/INFO]: UUID of player woojin_0729 is a627eade-6da3-44b3-ae0c-d798712b5d38
+[13:40:12] [Server thread/INFO]: woojin_0729 joined the game
+[13:40:12] [Server thread/INFO]: woojin_0729[/112.152.13.181:53911] logged in with entity id 2948 at ([world]-586.480039199795, 63.875, 29.29414585758271)
+[13:40:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 해위
+[13:42:48] [Async Chat Thread - #4/INFO]: <woojin_0729> 흠
+[13:44:54] [Server thread/INFO]: Nightmare_20 has made the advancement [Best Friends Forever]
+[13:45:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > @hood141 님
+[13:45:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 비자금 상자
+[13:45:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 찾았어요?
+[13:46:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] hood141 > 사라짐
+[13:46:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 그거 ㅅㅂ
+[13:46:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 집앞
+[13:46:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 상자에
+[13:46:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 있는대ㅔ?
+[13:46:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+[13:46:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] hood141 > 애?
+[13:46:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 빨간색 셜커아녀
+[13:46:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] hood141 > 앙
+[13:46:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > ㄹㅇ;
+[13:46:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] hood141 > ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+[13:46:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 님 뭐함
+[13:46:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > ㅋㅋ
+[13:46:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > ㅋㅋ
+[13:46:31] [User Authenticator #3/INFO]: UUID of player GHOSTs_hoods is 01c96850-0fb6-4956-8ff5-d5920f894be8
+[13:46:31] [Server thread/INFO]: GHOSTs_hoods joined the game
+[13:46:31] [Server thread/INFO]: GHOSTs_hoods[/211.108.46.204:11417] logged in with entity id 7084 at ([world]-19.502174655726577, 64.0, 997.6664229469667)
+[13:46:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > ㅈㄴ
+[13:46:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 가까운곳에 있는디?
+[13:46:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] hood141 > ㅋㅋㅋㅋㅋㅋ
+[13:46:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드 | FredBoat♪♪] FredBoat♪♪ > Thanks for using Fredboat Music! To get started, join a voice channel and type `/play <song name>`. I'll give you a list of 5 songs where you can choose one by typing `/play <number>`.
+
+Type `/commands` for a list of commands you can use! Or go to <https:/
+[13:47:39] [Async Chat Thread - #6/INFO]: <GHOSTs_hoods> 상자안에 뭐있음
+[13:47:39] [Async Chat Thread - #7/INFO]: <woojin_0729> 나무 많이 캐와야것네
+[13:47:44] [Async Chat Thread - #7/INFO]: <woojin_0729> 님 으디임
+[13:47:54] [Async Chat Thread - #7/INFO]: <woojin_0729> 잡템상자여
+[13:47:57] [Async Chat Thread - #6/INFO]: <GHOSTs_hoods> 민석씨가 판다를 옮겨줘야해
+[13:48:02] [Async Chat Thread - #7/INFO]: <woojin_0729> 템 뭐있나 해서 봤는디
+[13:48:06] [Async Chat Thread - #7/INFO]: <GHOSTs_hoods> ㅇㅇ
+[13:48:08] [Async Chat Thread - #6/INFO]: <woojin_0729> 비자금 상자 떡하니있음
+[13:48:15] [Async Chat Thread - #7/INFO]: <GHOSTs_hoods> ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+[13:48:28] [Server thread/INFO]: minseokkk777 issued server command: /tp minseokkk777 GHOSTs_hoods
+[13:48:28] [Server thread/INFO]: [minseokkk777: Teleported minseokkk777 to GHOSTs_hoods]
+[13:48:28] [Server thread/WARN]: minseokkk777 moved too quickly! 677.8798967775743,17.0,997.6208016127644
+[13:48:39] [Server thread/INFO]: minseokkk777 issued server command: /kill GHOSTs_hoods
+[13:48:39] [Server thread/INFO]: GHOSTs_hoods was killed whilst fighting Skeleton
+[13:48:39] [Server thread/INFO]: [minseokkk777: Killed GHOSTs_hoods]
+[13:49:00] [Server thread/INFO]: minseokkk777 issued server command: /tp @e[type=minecraft:panda] GHOSTs_hoods
+[13:49:00] [Server thread/INFO]: [minseokkk777: Teleported Panda to GHOSTs_hoods]
+[13:49:09] [Server thread/INFO]: minseokkk777 issued server command: /tp minseokkk777 GHOSTs_hoods
+[13:49:09] [Server thread/INFO]: [minseokkk777: Teleported minseokkk777 to GHOSTs_hoods]
+[13:49:20] [Async Chat Thread - #8/INFO]: <woojin_0729> 폭죽이읎어!!!!!!!!!!!!!!!!!!
+[13:49:55] [Async Chat Thread - #9/INFO]: <woojin_0729> 암튼 ㅊㅋㅊ
+[13:51:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드 | Vexera] Vexera > Thanks for adding Vexera! :VexeraWhite:
+
+:question: Run `+help` for a list of commands.
+
+:musical_note: Looking to play music? Run `+play`!
+
+:gear: Configure the bot via the web dashboard at <https://vexera.io>
+
+:electric_plug: Supercharge your Vexera experience with Vexera 
+[13:52:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > =play https://youtu.be/cbuZfY2S2UQ
+[14:01:44] [Async Chat Thread - #10/INFO]: <minseokkk777> 디코 들어오셈 다르킨
+[14:03:17] [Server thread/INFO]: minseokkk777 issued server command: /weather clear
+[14:03:17] [Server thread/INFO]: [minseokkk777: Set the weather to clear]
+[14:09:08] [Server thread/INFO]: minseokkk777 issued server command: /gamemode creative
+[14:09:08] [Server thread/INFO]: [minseokkk777: Set own game mode to Creative Mode]
+[14:09:12] [Server thread/INFO]: minseokkk777 issued server command: /gamemode survival
+[14:09:12] [Server thread/INFO]: [minseokkk777: Set own game mode to Survival Mode]
+[14:09:19] [Server thread/INFO]: minseokkk777 issued server command: /gamemode survival
+[14:09:32] [Async Chat Thread - #12/INFO]: <minseokkk777> 그냥 사라지a
+[14:09:39] [Server thread/INFO]: minseokkk777 issued server command: /lagg clear
+[14:09:59] [Async Chat Thread - #12/INFO]: <minseokkk777> 내가 청소 플러그인 돌리면 되서
+[14:10:10] [Async Chat Thread - #12/INFO]: <minseokkk777> 바로 지울수있음
+[14:10:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 어 잠만 내 낚시터
+[14:10:55] [Async Chat Thread - #13/INFO]: <minseokkk777> 오늘 지었으면 사라짐
+[14:11:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 아이잌
+[14:11:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 아이쒸 날라갔네
+[14:11:19] [Async Chat Thread - #13/INFO]: <minseokkk777> 버그가 나서 날라갔음
+[14:11:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 조땠따
+[14:11:41] [Async Chat Thread - #13/INFO]: <minseokkk777> 다행히 이거라도 남은게 다행임
+[14:11:49] [Async Chat Thread - #13/INFO]: <minseokkk777> 어제 백업해서zzzz
+[14:13:02] [Async Chat Thread - #14/INFO]: <woojin_0729> 흐음
+[14:13:08] [Async Chat Thread - #15/INFO]: <woojin_0729> 크리퍼 공장 앞에서 잠수타니까
+[14:13:13] [Async Chat Thread - #14/INFO]: <woojin_0729> 화약이 많구만
+[14:13:32] [Async Chat Thread - #14/INFO]: <minseokkk777> 디코오셈
+[14:13:47] [Server thread/INFO]: Nightmare_20 drowned
+[14:13:52] [Async Chat Thread - #15/INFO]: <minseokkk777> 나메님이랑 후드님 있음
+[14:14:01] [Async Chat Thread - #14/INFO]: <minseokkk777> 디코
+[14:14:55] [Async Chat Thread - #15/INFO]: <woojin_0729> 근디 님들 어디서머함
+[14:15:00] [Server thread/INFO]: woojin_0729 fell from a high place
+[14:15:05] [Async Chat Thread - #14/INFO]: <GHOSTs_hoods> 판다 사육장 만듬
+[14:15:51] [Async Chat Thread - #14/INFO]: <GHOSTs_hoods> 다르킨 화약좀 만들어서 주쇼
+[14:16:00] [Async Chat Thread - #14/INFO]: <woojin_0729> ㄱㄷ 집가면 두셋드림
+[14:17:27] [Async Chat Thread - #16/INFO]: <woojin_0729> 끼에엑
+[14:17:27] [Server thread/INFO]: woojin_0729 tried to swim in lava
+[14:17:33] [Async Chat Thread - #17/INFO]: <woojin_0729> 으디
+[14:18:27] [User Authenticator #4/INFO]: UUID of player Rehelm is 1d73586a-aeaa-48c4-baaf-c5971cb5fa5e
+[14:18:27] [Server thread/INFO]: Rehelm joined the game
+[14:18:27] [Server thread/INFO]: Rehelm[/39.124.234.86:51930] logged in with entity id 21734 at ([world]-604.4986516404231, 66.0, 37.39849303369401)
+[14:18:33] [Async Chat Thread - #16/INFO]: <woojin_0729> ㅇ? ㅎㅇ
+[14:18:57] [Async Chat Thread - #17/INFO]: <woojin_0729> 롱탐님 섭 이름만
+[14:18:59] [Async Chat Thread - #16/INFO]: <woojin_0729> 그거니꼐!
+[14:19:36] [Async Chat Thread - #17/INFO]: <woojin_0729> 아악 시끄러ㅓㅓ
+[14:20:21] [Async Chat Thread - #17/INFO]: <woojin_0729> 후으 ㅇㄷ
+[14:20:23] [Async Chat Thread - #17/INFO]: <woojin_0729> 후드
