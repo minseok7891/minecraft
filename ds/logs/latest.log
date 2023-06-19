@@ -204,3 +204,241 @@ Type `/commands` for a list of commands you can use! Or go to <https:/
 [14:19:36] [Async Chat Thread - #17/INFO]: <woojin_0729> 아악 시끄러ㅓㅓ
 [14:20:21] [Async Chat Thread - #17/INFO]: <woojin_0729> 후으 ㅇㄷ
 [14:20:23] [Async Chat Thread - #17/INFO]: <woojin_0729> 후드
+[14:22:16] [Async Chat Thread - #18/INFO]: <minseokkk777> 롱탐님한테 허락맞고 마크 서버 홍보 할까 ㅋㅋㅋㅋㅋ
+[14:23:20] [Async Chat Thread - #20/INFO]: <minseokkk777> 근데 아까 그런건 렉 떄문이 아님
+[14:23:24] [Async Chat Thread - #20/INFO]: <minseokkk777> 사라진건
+[14:23:48] [Async Chat Thread - #20/INFO]: <minseokkk777> 램 10기가로 업데이트 해서 버틸수있긴함 이제
+[14:24:00] [Async Chat Thread - #20/INFO]: <minseokkk777> 사람 많아도
+[14:26:31] [Async Chat Thread - #22/INFO]: <minseokkk777> 롱탐님이 홍보는 하지말라고
+[14:26:58] [Async Chat Thread - #22/INFO]: <minseokkk777> 그냥 데가 대화방으로 사용하라고
+[14:28:35] [Server thread/INFO]: Nightmare_20 fell from a high place
+[14:30:01] [Server thread/INFO]: minseokkk777 issued server command: /locate biome minecraft:desert
+[14:30:11] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[14:30:11] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[14:30:11] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:11] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[14:30:11] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:11] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[14:30:11] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[14:30:11] [Watchdog Thread/ERROR]: 	Stack:
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.compute(DensityFunctions.java:997)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.Climate$Sampler.sample(Climate.java:422)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.MultiNoiseBiomeSource.getNoiseBiome(MultiNoiseBiomeSource.java:64)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.BiomeSource.findClosestBiome3d(BiomeSource.java:91)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findClosestBiome3d(ServerLevel.java:2132)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateBiome(LocateCommand.java:95)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$6(LocateCommand.java:60)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.CommandLocate$$Lambda$4088/0x000000080156eb48.run(Unknown Source)
+[14:30:11] [Watchdog Thread/ERROR]: 		com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:332)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:316)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2391)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2351)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.PlayerConnection$$Lambda$7771/0x000000080203bc18.run(Unknown Source)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.IAsyncTaskHandler$$Lambda$7772/0x000000080203be28.get(Unknown Source)
+[14:30:11] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1366)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1343)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1336)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1452)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[14:30:11] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4659/0x00000008015f27c0.run(Unknown Source)
+[14:30:11] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[14:30:11] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:11] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[14:30:11] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:16] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[14:30:16] [Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[14:30:16] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:16] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[14:30:16] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:16] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[14:30:16] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[14:30:16] [Watchdog Thread/ERROR]: 	Stack:
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.util.Mth.lerp2(Mth.java:499)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.util.Mth.lerp3(Mth.java:503)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.ImprovedNoise.sampleAndLerp(ImprovedNoise.java:105)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.ImprovedNoise.noise(ImprovedNoise.java:63)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.PerlinNoise.getValue(PerlinNoise.java:158)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.PerlinNoise.getValue(PerlinNoise.java:145)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.NormalNoise.getValue(NormalNoise.java:80)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunction$NoiseHolder.getValue(DensityFunction.java:91)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftNoise.compute(DensityFunctions.java:977)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftA.compute(DensityFunctions.java:930)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.compute(DensityFunctions.java:994)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.Climate$Sampler.sample(Climate.java:422)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.MultiNoiseBiomeSource.getNoiseBiome(MultiNoiseBiomeSource.java:64)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.BiomeSource.findClosestBiome3d(BiomeSource.java:91)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findClosestBiome3d(ServerLevel.java:2132)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateBiome(LocateCommand.java:95)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$6(LocateCommand.java:60)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.CommandLocate$$Lambda$4088/0x000000080156eb48.run(Unknown Source)
+[14:30:16] [Watchdog Thread/ERROR]: 		com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:332)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:316)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2391)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2351)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.PlayerConnection$$Lambda$7771/0x000000080203bc18.run(Unknown Source)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.IAsyncTaskHandler$$Lambda$7772/0x000000080203be28.get(Unknown Source)
+[14:30:16] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1366)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1343)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1336)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1452)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[14:30:16] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4659/0x00000008015f27c0.run(Unknown Source)
+[14:30:16] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[14:30:16] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:16] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[14:30:16] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:21] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[14:30:21] [Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[14:30:21] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:21] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[14:30:21] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:21] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[14:30:21] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[14:30:21] [Watchdog Thread/ERROR]: 	Stack:
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.PerlinNoise.wrap(PerlinNoise.java:195)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.PerlinNoise.getValue(PerlinNoise.java:158)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.PerlinNoise.getValue(PerlinNoise.java:145)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.NormalNoise.getValue(NormalNoise.java:80)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunction$NoiseHolder.getValue(DensityFunction.java:91)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftNoise.compute(DensityFunctions.java:977)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftA.compute(DensityFunctions.java:930)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.compute(DensityFunctions.java:994)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.apply(DensityFunctions.java:1093)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.a(DensityFunctions.java:1063)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.apply(CubicSpline.java:242)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.compute(DensityFunctions.java:1033)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:248)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:252)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:252)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.Climate$Sampler.sample(Climate.java:422)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.MultiNoiseBiomeSource.getNoiseBiome(MultiNoiseBiomeSource.java:64)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.biome.BiomeSource.findClosestBiome3d(BiomeSource.java:91)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findClosestBiome3d(ServerLevel.java:2132)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateBiome(LocateCommand.java:95)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$6(LocateCommand.java:60)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.commands.CommandLocate$$Lambda$4088/0x000000080156eb48.run(Unknown Source)
+[14:30:21] [Watchdog Thread/ERROR]: 		com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:332)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:316)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2391)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2351)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.PlayerConnection$$Lambda$7771/0x000000080203bc18.run(Unknown Source)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.IAsyncTaskHandler$$Lambda$7772/0x000000080203be28.get(Unknown Source)
+[14:30:21] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1366)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1343)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1336)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1452)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[14:30:21] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4659/0x00000008015f27c0.run(Unknown Source)
+[14:30:21] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[14:30:21] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:21] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[14:30:21] [Watchdog Thread/ERROR]: ------------------------------
+[14:30:26] [Server thread/INFO]: Locating element minecraft:desert took 24217 ms
+[14:30:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24215ms or 484 ticks behind
+[14:30:26] [Server thread/WARN]: minseokkk777 moved too quickly! -1.2748600727734356,1.1767592750642422,-10.112532746012409
+[14:30:26] [Server thread/WARN]: Nightmare_20 moved too quickly! 8.888695768489015,2.252203340253729,-28.437684316861116
+[14:30:36] [Async Chat Thread - #24/INFO]: <minseokkk777> 내가 뭐 하면 그럼
+[14:31:02] [Server thread/INFO]: Rehelm fell from a high place
+[14:32:23] [Async Chat Thread - #26/INFO]: <minseokkk777> 용암 왜 깔아둔거야 코블스톤 생성기는 왜 만들고
+[14:34:03] [Async Chat Thread - #28/INFO]: <minseokkk777> 설커 껍데기 있음?
+[14:34:34] [Server thread/INFO]: Nightmare_20 fell out of the world
+[14:34:52] [Server thread/INFO]: GHOSTs_hoods drowned
+[14:35:45] [Async Chat Thread - #30/INFO]: <minseokkk777> 그냥 엔더 갔다와야겠다
+[14:36:01] [Async Chat Thread - #31/INFO]: <minseokkk777> 색깔별로 설커상자는 못참음
+[14:36:02] [Server thread/INFO]: Nightmare_20 lost connection: Disconnected
+[14:36:02] [Server thread/INFO]: Nightmare_20 left the game
+[14:38:53] [Async Chat Thread - #32/INFO]: <minseokkk777> @p 써서 그럼
+[14:39:08] [Async Chat Thread - #33/INFO]: <minseokkk777> 그게 됐으면 그걸로 했음
+[14:39:31] [Async Chat Thread - #32/INFO]: <woojin_0729> 흐음
+[14:40:27] [Server thread/INFO]: Rehelm fell out of the world
+[14:40:46] [Async Chat Thread - #34/INFO]: <woojin_0729> 마녀 ㅅㅂ
+[14:41:49] [Server thread/INFO]: woojin_0729 has made the advancement [Ice Bucket Challenge]
+[14:44:33] [Async Chat Thread - #36/INFO]: <woojin_0729> ㅋㅋ
+[14:45:23] [Server thread/INFO]: Rehelm was slain by Enderman
+[14:45:31] [Async Chat Thread - #37/INFO]: <woojin_0729> 나메 차단함?
+[14:45:39] [Async Chat Thread - #36/INFO]: <woojin_0729> ?zz
+[14:49:59] [Server thread/INFO]: Rehelm was slain by Enderman
+[14:50:57] [Server thread/INFO]: GHOSTs_hoods drowned
+[14:52:38] [Async Chat Thread - #38/INFO]: <woojin_0729> alt꾹누르고 왼쪽으로 마우스 옮기면댐
+[14:52:58] [Async Chat Thread - #39/INFO]: <woojin_0729> 그럼 더 노력을 했어야지
+[14:53:03] [Async Chat Thread - #38/INFO]: <Rehelm> ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+[14:54:16] [Async Chat Thread - #40/INFO]: <woojin_0729> 잼민ㄴ이 좀비
+[14:54:19] [Async Chat Thread - #40/INFO]: <woojin_0729> 철칼들고 달려오는거봐
+[14:54:20] [Async Chat Thread - #40/INFO]: <woojin_0729> ㅅㅂ
+[14:54:46] [Async Chat Thread - #41/INFO]: <woojin_0729> ㅅㄴㄴ
+[14:54:48] [Server thread/INFO]: woojin_0729 issued server command: /ㅅㄴㄴ
+[14:54:49] [Async Chat Thread - #40/INFO]: <woojin_0729> ㅅㄴㄴ
+[14:54:51] [Async Chat Thread - #40/INFO]: <woojin_0729> ㄴㄴ
+[14:55:17] [Async Chat Thread - #40/INFO]: <woojin_0729> 그거 붙으면
+[14:55:19] [Async Chat Thread - #40/INFO]: <woojin_0729> 좀비 오열해..
+[14:56:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5203ms or 104 ticks behind
+[14:56:51] [Server thread/INFO]: minseokkk777 issued server command: /tp minseokkk777 GHOSTs_hoods
+[14:56:51] [Server thread/INFO]: [minseokkk777: Teleported minseokkk777 to GHOSTs_hoods]
+[15:00:25] [Server thread/INFO]: woojin_0729 experienced kinetic energy
+[15:00:30] [Async Chat Thread - #42/INFO]: <woojin_0729> 와 집이당
+[15:01:14] [Async Chat Thread - #43/INFO]: <woojin_0729> 설치하셔
+[15:01:21] [Async Chat Thread - #42/INFO]: <woojin_0729> 상자묵엇자너
+[15:01:22] [Async Chat Thread - #42/INFO]: <Rehelm> 뭐를
+[15:01:27] [Async Chat Thread - #43/INFO]: <Rehelm> 없는디?
+[15:01:28] [Async Chat Thread - #43/INFO]: <woojin_0729> 엔더상자!!
+[15:01:33] [Async Chat Thread - #43/INFO]: <woojin_0729> ?
+[15:01:35] [Async Chat Thread - #42/INFO]: <woojin_0729> 어디감
+[15:01:45] [Async Chat Thread - #42/INFO]: <woojin_0729> ㅇㅅㅇ
+[15:01:49] [Async Chat Thread - #43/INFO]: <woojin_0729> 먹는소리 났는디
+[15:02:01] [Async Chat Thread - #43/INFO]: <woojin_0729> 흑흑
+[15:02:15] [Async Chat Thread - #43/INFO]: <woojin_0729> 두개 만들었으니까..
+[15:02:32] [Async Chat Thread - #43/INFO]: <woojin_0729> 난 여기에 내 소중한 셜커상자를
+[15:02:33] [Async Chat Thread - #42/INFO]: <woojin_0729> 넣겠어
+[15:03:41] [Async Chat Thread - #44/INFO]: <woojin_0729> 노래 스킵해줘어어억
+[15:03:45] [Async Chat Thread - #44/INFO]: <woojin_0729> 오늘의 마지막을
+[15:03:49] [Async Chat Thread - #45/INFO]: <woojin_0729> 메이플 브금으로 마무리하고싶어!!!
+[15:03:58] [Async Chat Thread - #44/INFO]: <woojin_0729> 아이익
+[15:04:05] [Async Chat Thread - #44/INFO]: <woojin_0729> 노래만 듣자!!!!
+[15:04:14] [Async Chat Thread - #45/INFO]: <woojin_0729> 오늘 메이플
+[15:04:16] [Async Chat Thread - #44/INFO]: <woojin_0729> 일퀘 일보만 잡고
+[15:04:17] [Async Chat Thread - #45/INFO]: <woojin_0729> 껏다거
+[15:04:25] [Async Chat Thread - #44/INFO]: <woojin_0729> ㅅㅍ
+[15:05:59] [Server thread/INFO]: woojin_0729 was slain by Enderman
+[15:06:25] [Async Chat Thread - #46/INFO]: <woojin_0729> 민석 철공장에 짱박혀서/
+[15:06:27] [Async Chat Thread - #47/INFO]: <woojin_0729> 잠수타는디
+[15:06:45] [Server thread/INFO]: Rehelm was slain by Enderman
+[15:07:32] [Async Chat Thread - #49/INFO]: <woojin_0729> 뭐야
+[15:07:34] [Async Chat Thread - #49/INFO]: <woojin_0729> 엔더상자 캐니까
+[15:07:40] [Async Chat Thread - #49/INFO]: <woojin_0729> 흑요석 8개로 캐지네
+[15:07:43] [Async Chat Thread - #48/INFO]: <woojin_0729> ㅅㅂ 내 엔더의눈 돌려줘요
+[15:07:48] [Async Chat Thread - #49/INFO]: <woojin_0729> 아까도 이랫나봄
+[15:07:50] [Async Chat Thread - #48/INFO]: <woojin_0729> 내가 만든거
+[15:07:52] [Async Chat Thread - #49/INFO]: <woojin_0729> 둘다
+[15:08:01] [Async Chat Thread - #49/INFO]: <woojin_0729> wtf?
+[15:08:14] [Async Chat Thread - #49/INFO]: <woojin_0729> 아 안사요

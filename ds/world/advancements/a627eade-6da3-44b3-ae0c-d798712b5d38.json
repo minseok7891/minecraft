@@ -55,7 +55,8 @@
       "minecraft:piglin": "2023-06-18 13:14:10 +0000",
       "minecraft:enderman": "2023-06-18 10:28:42 +0000",
       "minecraft:zombie": "2023-06-13 11:53:05 +0000",
-      "minecraft:drowned": "2023-06-19 13:45:00 +0000"
+      "minecraft:drowned": "2023-06-19 13:45:00 +0000",
+      "minecraft:zombie_villager": "2023-06-19 14:55:49 +0000"
     },
     "done": false
   },
@@ -2583,6 +2584,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-06-19 14:41:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_blaze_powder": "2023-06-19 14:19:33 +0000"
@@ -2592,6 +2599,12 @@
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2023-06-19 14:19:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-06-19 14:41:49 +0000"
     },
     "done": true
   },
