@@ -1,5 +1,368 @@
-[00:29:50] [User Authenticator #0/INFO]: UUID of player Nightmare_20 is 22b6a089-59d3-45ff-8493-0178769040bc
-[00:29:54] [Server thread/INFO]: Nightmare_20 joined the game
-[00:29:54] [Server thread/INFO]: Nightmare_20[/27.126.4.127:4542] logged in with entity id 768 at ([world]-619.8188797451288, 64.0, 14.520079400858393)
-[00:42:30] [Server thread/INFO]: Nightmare_20 lost connection: Disconnected
-[00:42:30] [Server thread/INFO]: Nightmare_20 left the game
+[03:04:59] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins/fabric-api-0.83.1+1.20.1.jar' failed to load!
+java.lang.RuntimeException: Directory 'plugins/fabric-api-0.83.1+1.20.1.jar' failed to load!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:32) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:14) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:100) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	at net.minecraft.server.Main.main(Main.java:126) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	at org.bukkit.craftbukkit.Main.main(Main.java:330) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/fabric-api-0.83.1+1.20.1.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[purpur-1.20.1.jar:git-Purpur-1996]
+	... 20 more
+[03:05:09] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:05:09] [ServerMain/WARN]: Missing data pack fabric
+[03:05:12] [ServerMain/INFO]: Loaded 7 recipes
+[03:05:13] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:05:13] [Server thread/INFO]: Loading properties
+[03:05:13] [Server thread/INFO]: This server is running Purpur version git-Purpur-1996 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: fa3166a on HEAD)
+[03:05:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:05:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:05:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[03:05:15] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[03:05:15] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[03:05:15] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[03:05:15] [Server thread/WARN]: [Pufferfish] Debug: Java: 18.0.2-ea, test run: true
+[03:05:16] [Server thread/INFO]: Default game type: SURVIVAL
+[03:05:16] [Server thread/INFO]: Generating keypair
+[03:05:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:05:16] [Server thread/INFO]: Using epoll channel type
+[03:05:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:05:16] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[03:05:17] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.42
+[03:05:17] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.90
+[03:05:17] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.26.3-SNAPSHOT
+[03:05:17] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[03:05:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:05:17] [Server thread/INFO]: Preparing level "world"
+[03:05:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:05:19] [Server thread/INFO]: Time elapsed: 574 ms
+[03:05:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:05:20] [Server thread/INFO]: Time elapsed: 116 ms
+[03:05:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:05:20] [Server thread/INFO]: Time elapsed: 117 ms
+[03:05:20] [Server thread/INFO]: [spark] Enabling spark v1.10.42
+[03:05:22] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[03:05:22] [Server thread/INFO]: [spark] Starting background profiler...
+[03:05:24] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.90
+[03:05:24] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.3-SNAPSHOT
+[03:05:24] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[03:05:24] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[03:05:25] [Server thread/INFO]: [ClearLag] Loading modules...
+[03:05:25] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[03:05:25] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[03:05:25] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[03:05:25] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[03:05:25] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[03:05:25] [Thread-11/INFO]: [ClearLag] No updates found!
+[03:05:25] [Server thread/INFO]: Running delayed init tasks
+[03:05:25] [Server thread/INFO]: Done (11.777s)! For help, type "help"
+[03:05:29] [pool-17-thread-1/INFO]: [DiscordSRV] This build of DiscordSRV is identical to develop. [latest public dev build]
+[03:05:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[03:05:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[03:05:30] [User Authenticator #0/INFO]: UUID of player minseokkk777 is 931e0a25-471f-4833-98ac-259dfc9b8a15
+[03:05:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[03:05:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:minseokkk777.kro.kr 마크서버(1094917816047652874)
+[03:05:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:일반(1094917818266439782)
+[03:05:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:로그(1094919469010272296)
+[03:05:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:노래(1120347129362264175)
+[03:05:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:로그(1094919469010272296)
+[03:05:40] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[03:05:40] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[03:05:40] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:40] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[03:05:40] [Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@a5c0b4a
+[03:05:40] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:40] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[03:05:40] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[03:05:40] [Watchdog Thread/ERROR]: 	Stack:
+[03:05:40] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
+[03:05:40] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[03:05:40] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[03:05:40] [Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2399)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:608)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1602)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1421)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[03:05:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4671/0x00000008015ef290.run(Unknown Source)
+[03:05:40] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[03:05:40] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:40] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[03:05:40] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:45] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[03:05:45] [Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[03:05:45] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:45] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[03:05:45] [Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@a5c0b4a
+[03:05:45] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:45] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[03:05:45] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[03:05:45] [Watchdog Thread/ERROR]: 	Stack:
+[03:05:45] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
+[03:05:45] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[03:05:45] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[03:05:45] [Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2399)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:608)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1602)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1421)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[03:05:45] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4671/0x00000008015ef290.run(Unknown Source)
+[03:05:45] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[03:05:45] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:45] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[03:05:45] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:50] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[03:05:50] [Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[03:05:50] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:50] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[03:05:50] [Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@a5c0b4a
+[03:05:50] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:50] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[03:05:50] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[03:05:50] [Watchdog Thread/ERROR]: 	Stack:
+[03:05:50] [Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.LongArrayList$1.nextLong(LongArrayList.java:771)
+[03:05:50] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:337)
+[03:05:50] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[03:05:50] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[03:05:50] [Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2399)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:608)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1602)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1421)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[03:05:50] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4671/0x00000008015ef290.run(Unknown Source)
+[03:05:50] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[03:05:50] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:50] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[03:05:50] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:55] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[03:05:55] [Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[03:05:55] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:55] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[03:05:55] [Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@a5c0b4a
+[03:05:55] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:55] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[03:05:55] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[03:05:55] [Watchdog Thread/ERROR]: 	Stack:
+[03:05:55] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
+[03:05:55] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[03:05:55] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[03:05:55] [Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2399)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:608)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1602)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1421)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[03:05:55] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4671/0x00000008015ef290.run(Unknown Source)
+[03:05:55] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[03:05:55] [Watchdog Thread/ERROR]: ------------------------------
+[03:05:55] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[03:05:55] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:00] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[03:06:00] [Watchdog Thread/ERROR]: The server has not responded for 30 seconds! Creating thread dump
+[03:06:00] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:00] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[03:06:00] [Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@a5c0b4a
+[03:06:00] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:00] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[03:06:00] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[03:06:00] [Watchdog Thread/ERROR]: 	Stack:
+[03:06:00] [Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.LongArrayList$1.nextLong(LongArrayList.java:771)
+[03:06:00] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:337)
+[03:06:00] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[03:06:00] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[03:06:00] [Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2399)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:608)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1602)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1421)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[03:06:00] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4671/0x00000008015ef290.run(Unknown Source)
+[03:06:00] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[03:06:00] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:00] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[03:06:00] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > 내가 모드 서버 열기를 좀 하느라
+[03:06:05] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1996 (MC: 1.20.1) ---
+[03:06:05] [Watchdog Thread/ERROR]: The server has not responded for 35 seconds! Creating thread dump
+[03:06:05] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:05] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[03:06:05] [Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@a5c0b4a
+[03:06:05] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:05] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[03:06:05] [Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[03:06:05] [Watchdog Thread/ERROR]: 	Stack:
+[03:06:05] [Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.LongArrayList$1.nextLong(LongArrayList.java:771)
+[03:06:05] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:337)
+[03:06:05] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[03:06:05] [Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[03:06:05] [Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2399)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:608)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1602)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1421)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[03:06:05] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4671/0x00000008015ef290.run(Unknown Source)
+[03:06:05] [Watchdog Thread/ERROR]: 		java.base@18.0.2-ea/java.lang.Thread.run(Thread.java:833)
+[03:06:05] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:05] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[03:06:05] [Watchdog Thread/ERROR]: ------------------------------
+[03:06:06] [Server thread/INFO]: minseokkk777 lost connection: Timed out
+[03:06:06] [Server thread/INFO]: minseokkk777 left the game
+[03:06:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 36532ms or 730 ticks behind
+[03:06:06] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[03:06:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > 했는데 모드 버릴
+[03:06:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > 씨바 모드 버려
+[03:06:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > 플러그인을 버려야해 모드서버를 하면
+[03:08:05] [User Authenticator #1/INFO]: UUID of player minseokkk777 is 931e0a25-471f-4833-98ac-259dfc9b8a15
+[03:08:05] [Server thread/INFO]: minseokkk777 joined the game
+[03:08:05] [Server thread/INFO]: minseokkk777[/218.148.64.205:54826] logged in with entity id 294 at ([world]-1044.39080286118, 240.0, 112.040632616467)
+[03:08:29] [Server thread/INFO]: minseokkk777 issued server command: /gamerule randomTickSpeed
+[03:08:32] [Server thread/INFO]: minseokkk777 issued server command: /gamerule randomTickSpeed 5
+[03:08:32] [Server thread/INFO]: [minseokkk777: Gamerule randomTickSpeed is now set to: 5]
+[03:09:04] [Server thread/INFO]: minseokkk777 issued server command: /gamemode creative
+[03:09:04] [Server thread/INFO]: [minseokkk777: Set own game mode to Creative Mode]
+[03:09:34] [Server thread/INFO]: minseokkk777 issued server command: /gamemode survival
+[03:09:34] [Server thread/INFO]: [minseokkk777: Set own game mode to Survival Mode]
+[03:52:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] hood141 > ㅋㅋㅋㅋㅋㅋㅋㅋ
+[03:53:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 근데 위더잡으면 신호기 만들어지나?
+[04:00:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > 유리가 필요함
+[04:00:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > 어?
+[04:00:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 어휴
+[04:00:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 시동걸렸네
+[04:00:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 클났다
+[04:14:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 또 유리 복사되는거야?
+[04:17:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 그런듯
+[04:17:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > ㅋㅋㅋ
+[04:19:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > 오늘
+[04:19:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > 25000개
+[04:19:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > 채운다
+[04:19:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > ???
+[04:20:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 진정해
+[04:20:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > ?
+[04:20:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > 진정했는데
+[04:20:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 어음....
+[04:20:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 그럼 흥분해(?)
+[04:20:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > ?
+[04:20:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > 3만개 찍자 ㅋ
+[04:20:45] [User Authenticator #2/INFO]: UUID of player Grapple01 is d060f8f5-76d0-4bb9-9efb-3e68af5531a1
+[04:20:45] [Server thread/INFO]: Grapple01 joined the game
+[04:20:45] [Server thread/INFO]: Grapple01[/58.125.195.173:58018] logged in with entity id 4497 at ([world]-596.1144668304704, 64.0, -38.09926258052875)
+[04:20:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 어우쉣
+[04:20:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] _minseok > 이상한대화 하고있네 씨바
+[04:21:01] [Async Chat Thread - #2/INFO]: <Grapple01> ?
+[04:21:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > ㄹㅇㅋㅋ
+[04:22:01] [Async Chat Thread - #2/INFO]: <minseokkk777> 무슨 사막이 사암지대가 됐네
+[04:23:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > ㅋㅋㅋㅋㅋ
+[04:25:17] [Async Chat Thread - #4/INFO]: <Grapple01> 근데 원래 사막 이렇게 생겼잖슴
+[04:25:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 대신 모래가 전멸했죠
+[04:25:57] [Async Chat Thread - #4/INFO]: <Grapple01> 사암 바이옴이잖아요여기
+[04:27:31] [Async Chat Thread - #7/INFO]: <Grapple01> 아침 만들어줄 민석 구함
+[04:27:38] [Server thread/INFO]: minseokkk777 issued server command: /weather clear
+[04:27:38] [Server thread/INFO]: [minseokkk777: Set the weather to clear]
+[04:27:43] [Server thread/INFO]: minseokkk777 issued server command: /time set day
+[04:27:43] [Server thread/INFO]: [minseokkk777: Set the time to 1000]
+[04:28:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 침대깔고자면 아침됨
+[04:28:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > ㅋㅋㅋㅋ
+[04:28:32] [Async Chat Thread - #8/INFO]: <Grapple01> 인벤토리 아까움
+[04:28:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > ㅋㅋㅋㅋㅋㅋ
+[04:28:47] [Async Chat Thread - #8/INFO]: <minseokkk777> 설커상자 10개 들고다니세a
+[04:29:12] [Async Chat Thread - #9/INFO]: <Grapple01> 모래 캐는 사람한테 그런 게 어딨어
+[04:29:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 그만큼의 셜커상자가 있음?
+[04:29:20] [Async Chat Thread - #9/INFO]: <minseokkk777> 내가 있음
+[04:29:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 나도 하나 남주고
+[04:29:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 하나밖에 없는데
+[04:31:36] [Async Chat Thread - #10/INFO]: <Grapple01> 구우러가야지
+[04:32:37] [Server thread/INFO]: minseokkk777 issued server command: /kill minseokkk777
+[04:32:37] [Server thread/INFO]: minseokkk777 was killed
+[04:32:37] [Server thread/INFO]: [minseokkk777: Killed minseokkk777]
+[04:33:00] [Server thread/INFO]: minseokkk777 issued server command: /kill minseokkk777
+[04:33:00] [Server thread/INFO]: minseokkk777 was killed
+[04:33:00] [Server thread/INFO]: [minseokkk777: Killed minseokkk777]
+[04:40:41] [User Authenticator #3/INFO]: UUID of player GHOSTs_hoods is 01c96850-0fb6-4956-8ff5-d5920f894be8
+[04:40:41] [Server thread/INFO]: GHOSTs_hoods joined the game
+[04:40:41] [Server thread/INFO]: GHOSTs_hoods[/211.108.46.204:7822] logged in with entity id 18139 at ([world]-615.2469158895896, 71.0, 7.070182238296589)
+[04:53:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 그래플 설마
+[04:53:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 모래캐는중?
+[04:54:01] [Async Chat Thread - #13/INFO]: <Grapple01> 굽는 중
+[04:54:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 무친...
+[04:54:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 몇개구웠길래
+[04:54:22] [Async Chat Thread - #14/INFO]: <Grapple01> 통계상
+[04:54:30] [Async Chat Thread - #14/INFO]: <Grapple01> 모래 21824회 캠
+[04:54:31] [Async Chat Thread - #13/INFO]: <GHOSTs_hoods> 민석도 가버린거 같아 셜커상자에 넣고 굽고 있어..
+[04:54:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅅㅂ
+[04:54:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 지금은 몇개캤는디
+[04:54:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > ㅎ한 3000개?
+[04:54:56] [Async Chat Thread - #13/INFO]: <Grapple01> 한번 갈떄마다
+[04:55:07] [Async Chat Thread - #13/INFO]: <Grapple01> 1700~1800 나오는 듯
+[04:55:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > !!!∑(°Д°ノ)ノ
+[04:55:55] [Async Chat Thread - #13/INFO]: <Grapple01> 근데 모래가 뭐 어때서 그럼
+[04:56:06] [Async Chat Thread - #13/INFO]: <GHOSTs_hoods> 모두가 이상해 보이면 내가 이상한거랬어 나도 모래캐야지
+[04:56:14] [Async Chat Thread - #13/INFO]: <Grapple01> ㄱㄱ
+[04:57:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > ㅋㅋㅋㅋ
+[04:57:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 할게없어?
+[04:57:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 그럼 모래나캐라고ㅋㅋ
+[04:58:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] rehelm > 아님 이따가 위더잡을 준비해두쇼 머리는 구해놨으니까
+[05:03:24] [Async Chat Thread - #16/INFO]: <minseokkk777> 내가 굽고있는 유리 가져갔네 zzzz
+[05:03:51] [Async Chat Thread - #16/INFO]: <Grapple01> 거기 아님
+[05:04:32] [Async Chat Thread - #15/INFO]: <Grapple01> 그 상자는 연료칸임
+[05:06:40] [Async Chat Thread - #17/INFO]: <minseokkk777> 아 그 가구 모드 추가는 어려울듯 함
+[05:06:49] [Async Chat Thread - #17/INFO]: <GHOSTs_hoods> ㄱㅊㄱㅊ
+[05:06:59] [Async Chat Thread - #18/INFO]: <minseokkk777> 플러그인을 못넣음 모드를 넣으면
+[05:08:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 영혼모래 캐와~~
+[05:09:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] woo_jin. > 위더 흑요석에 가둬두고 팰겨?
+[05:12:42] [Async Chat Thread - #19/INFO]: <minseokkk777> 엔더가서 기반암에서 죽여야지
+[05:17:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [디스코드] grapple01 > 유리 배달하고 메나 좀 해야지
+[05:21:51] [Server thread/INFO]: GHOSTs_hoods tried to swim in lava
